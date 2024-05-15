@@ -1,8 +1,28 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Product Management Application
 
-Currently, two official plugins are available:
+This assignment builds a robust product management application using React, Ant Design, and TypeScript/Javascript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Description
+
+The app displays the total number of products and the number of unique product categories. It ensures these statistics update automatically when products are added, edited, or deleted. Also a dedicated page with a form pops up to add new products. 
+
+## Features
+
+- Editing the Product's information
+- Deleting the Product's information
+- Adding a new Product
+- Sorting of products based on name or description or category.
+
+
+## File Structure
+    - /src
+
+        -/App.jsx
+
+        -/App.css
+
+        -/ProductForm.jsx
+
+        -/ProductForm.css
